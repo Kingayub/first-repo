@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+.container {
+    width: 1440px;
+    height: 4300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: 116px;
+    border: 1px solid white;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400px;
+    font-size: 18px;
+
+}
+
+
+.logo {
+    margin-left: 80px;
+    margin-top: 39px;
+    margin-bottom: 38px;
+    margin-right: 433px;
+}
+
+.home {
+    margin-top: 39px;
+    margin-bottom: 38px;
+    margin-right: 31px;
+}
+
+.About-Us {
+    margin-top: 39px;
+    margin-bottom: 38px;
+    margin-right: 31px;
+}
+
+.Services {
+    margin-top: 39px;
+    margin-bottom: 38px;
+    margin-right: 31px;
+}
+
+.blogs {
+    margin-top: 39px;
+    margin-bottom: 38px;
+    margin-right: 371px;
+}
+
+.btn-nav-bar {
+    margin-top: 39px;
+    margin-bottom: 38px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    background-color: #F1F1F2;
+    ;
+}
+
+.one-section {
+    width: 50%;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-size: 56px;
+    line-height: 68.6px;
+}
+
+.header-item-1 {
+    width: 433px;
+    height: 206px;
+    margin-top: 154px;
+    margin-left: 162px;
+}
+
+.header-item-2 {
+    width: 422px;
+    height: 57px;
+    margin-top: 36px;
+    margin-left: 162px;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+.header-item-3 {
+    width: 200px;
+    height: 60px;
+    margin-left: 162px;
+    margin-top: 52px;
+    margin-bottom: 135px;
+}
+
+.btn-section {
+    width: 200px;
+    height: 60px;
+    background-color: #F7941E;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21.6px;
+    align-items: center;
+    border: 1px solid #F7941E;
+}
+
+.two-section {
+    width: 50%;
+}
+
+.image-1 {
+    width: 100px;
+}
+
+.thanks-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
+.thanks-image {
+    width: 50%;
+    height: 700px;
+}
+
+.image-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.thanks-content {
+    width: 50%;
+    height: 700px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    background-color: #F1F1F2;
+    ;
+}
+
+.thanks-item1 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 194px;
+    height: 45px;
+    margin-top: 164px;
+    margin-left: 102.4px;
+}
+
+.thanks-item2 {
+    font-size: 20px;
+    line-height: 28.13px;
+    width: 441px;
+    height: 169px;
+    margin-top: 23px;
+    margin-left: 102.4px;
+}
+
+.thanks-item3 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 194px;
+    height: 45px;
+    margin-top: 35px;
+    margin-left: 102.4px;
+}
+
+.thanks-btn {
+    width: 200px;
+    height: 60px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.gifts {
+    width: 100%;
+    height: 247px;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.gifts-1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 422px;
+    height: 39px;
+    font-size: 32px;
+    line-height: 38.4px;
+    align-items: center;
+    margin-top: 96px;
+    margin-left: 509px;
+    margin-bottom: 23px;
+}
+
+.gifts-2 {
+    width: 454px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.47px;
+    align-items: center;
+    margin-left: 493px;
+    margin-bottom: 64px;
+}
+
+.compilation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 137px;
+}
+
+.number-1 {
+    margin-left: 159px;
+    width: 270px;
+    height: 270px;
+    background-color: #FAFAFA;
+}
+
+.birthday {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.see-more-1 {
+    padding-top: 74px;
+    padding-left: 24px;
+}
+
+.number-2 {
+    width: 270px;
+    height: 270px;
+}
+
+.anniversary {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.see-more-2 {
+    padding-top: 74px;
+    padding-left: 24px;
+}
+
+.number-3 {
+    width: 270px;
+    height: 270px;
+}
+
+.valentin {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.see-more-3 {
+    padding-top: 74px;
+    padding-left: 24px;
+}
+
+.number-4 {
+    margin-right: 135px;
+}
+
+.christmas {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.see-more-4 {
+    padding-top: 74px;
+    padding-left: 24px;
+}
+
+.orange {
+    width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.under-orange {
+    width: 50%;
+    margin-left: 235px;
+    padding-top: 50px;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.two-btns {
+    width: 50%;
+    height: 240px;
+    align-items: center;
+    padding-top: 96px;
+}
+
+
+.btn-orange-1 {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #231F20;
+    border-radius: 5px;
+}
+
+.btn-orange-2 {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #231F20;
+    border-radius: 5px;
+    color: #231F20;
+    background-color: #F7941E;
+}
+
+.best-blogs {
+    width: 100%;
+    height: 246px;
+    background-color: white;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.blog-h1 {
+    width: 422px;
+    height: 39px;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-left: 509px;
+    margin-top: 88px;
+    margin-bottom: 23px;
+    padding-left: 50px;
+}
+
+.blog-p {
+    width: 507px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 24.47px;
+    margin-left: 467px;
+}
+
+.last-img-container {
+    display: flex;
+    width: 1170px;
+    height: 370;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.last-img {
+    width: 400px;
+    height: 370;
+}
+
+.container-of-black {
+    width: 770px;
+    height: 370px;
+    background-color: #231F20;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    padding-left: 78px;
+}
+
+.author-name {
+    width: 84px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 19.69px;
+    margin-bottom: 27px;
+    margin-top: 63px;
+}
+
+.words {
+    width: 492px;
+    height: 125px;
+    font-size: 48px;
+    line-height: 57.6px;
+    margin-bottom: 60px;
+}
+
+.read-more {
+    width: 90px;
+    height: 26px;
+    font-size: 18px;
+    line-height: 25.31px;
+}
+
+.white-container {
+    margin-top: 40px;
+    margin-left: 135px;
+    margin-bottom: 80px;
+    width: 1170px;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+
+}
+
+.white-one {
+    width: 570px;
+    height: 290px;
+    padding-left: 48px;
+}
+
+.white-one-h1 {
+    padding-top: 48px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 33.75px;
+    width: 474px;
+    height: 68px;
+    font-weight: 400;
+}
+
+.white-one-h2 {
+    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 25.31px;
+    width: 474px;
+    height: 72px;
+}
+
+.white-one-p {
+    font-size: 14px;
+    line-height: 19.69px;
+    width: 70px;
+    height: 20spx;
+}
+
+
+.white-two {
+    width: 570px;
+    height: 290px;
+    padding-left: 48px;
+}
+
+.white-two-h1 {
+    padding-top: 48px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 33.75px;
+    width: 474px;
+    height: 68px;
+    font-weight: 400;
+}
+
+.white-two-h2 {
+    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 25.31px;
+    width: 474px;
+    height: 72px;
+}
+
+.white-two-p {
+    font-size: 14px;
+    line-height: 19.69px;
+    width: 70px;
+    height: 20spx;
+}
+
+.nav-bar-footer {
+    width: 1440;
+    height: 188px;
+    background-color: #FAFAFA;
+    color: black;
+    padding-top: 115px;
+    display: flex;
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.nav-bar-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-footer {
+    padding-left: 406px;
+    width: 38px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 19.69px;
+}
+
+.about-Us-footer {
+    padding-left: 81px;
+    width: 40px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 19.69px;
+}
+
+.logo-footer {
+    padding-left: 141px;
+    padding-right: 141px;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #F7941E;
+}
+
+.services-footer {
+    padding-right: 54px;
+    width: 48px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 19.69px;
+}
+
+.blogs-footer {
+    width: 30px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 19.69px;
+}
+
+.line {
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: 220px;
+    background-color: #FAFAFA;
+}
